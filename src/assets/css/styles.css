@@ -96,3 +96,31 @@ body {
     margin: 80px 20px;
   }
 }
+
+.card {
+  border-radius: 0.5rem;
+  padding: 30px;
+  width: 360px;
+  box-shadow: 0 1rem 2rem 0.5rem #dedede;
+}
+.card .card-title {
+  margin-bottom: 5px;
+  font-size: 2rem;
+  color: hsl(234, 12%, 34%);
+}
+.card .card-paragraph {
+  margin: 0;
+  font-size: 1.3rem;
+  color: hsl(229, 6%, 66%);
+}
+.card .card-image {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: right;
+}
+@media (max-width: 400px) {
+  .card {
+    width: 80vw;
+    margin: auto;
+  }
+}
